@@ -1,1 +1,15 @@
-text : There will be more information here soon!
+Summary:Information dosn't provide if have more than 7 characters from WS. 
+Descriprion:WS dosen't provide information if response containes more than 8 characters. 
+Actual result:information gets.
+Expected result:information doesen't get.
+Requirement ID:requirement.
+Reproduced on:Win 10.
+Reproducibility:always.
+Workaround:no.
+Steps to reproduce: 1. Open FireFox browser
+					2. Click [RESTClient] icon
+					3. Request method: POST
+					4. URL: http://178.124.206.52/app/ws/
+					5. type in Body: {"user":"rangarad", "strict":false}
+Severity:minor.
+Priority:low.
